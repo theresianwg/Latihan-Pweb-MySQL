@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap");
+
+.formContainer {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  background-color: #F9F5EB;
+  border-radius: 20px;
+  height: auto;
+  padding: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  color: #001952;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  color: #001952;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  color: #001952;
+  
+}
+
+header {
+  background-color: #F9F5EB;
+}
+
+header img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+footer {
+  background-color: #001952;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h6 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: whitesmoke;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.btn-primary {
+  font-weight: 400;
+  color: whitesmoke;
+  background-color: #7E3221;
+  border-color: #7E3221;
+}
+
+.btn-primary:hover {
+  color: whitesmoke;
+  background-color: #f39c12;
+  border-color: #f39c12;
+}
+
+label {
+  font-weight: bolder;
+}
+
+.form-group {
+  margin: 5px 0px 15px 0px;
+  color : #001952;
+}
+
+#prevLink {
+  text-align: center;
+  font-family: Arial;
+  font-weight: 400;
+  color: #001952;
+}

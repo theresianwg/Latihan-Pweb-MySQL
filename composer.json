@@ -1,0 +1,17 @@
+{
+    "name": "Theresianwg/pweb",
+    "description": "Tugas PWEB My SQL",
+    "authors": [
+        {
+            "name": "Theresianwg",
+            "email": "theresianawangsih@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "server": "php -S localhost:8080"
+    },
+    "config": {
+        "process-timeout":0
+      }
+}
