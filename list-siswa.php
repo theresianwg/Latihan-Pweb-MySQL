@@ -45,13 +45,15 @@
                             <th>Jenis Kelamin</th>
                             <th>Agama</th>
                             <th>Sekolah Asal</th>
+                            <th>Foto</th>
                             <th>Tindakan</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <?php
-                        $sql = "Select * From calon_siswa";
+                        include "config.php";
+                        $sql = "Select * From tambah_foto";
                         $query = mysqli_query($db, $sql);
 
                         while ($siswa = mysqli_fetch_array($query)) {
@@ -63,6 +65,8 @@
                             echo "<td>" . $siswa['jenis_kelamin'] . "</td>";
                             echo "<td>" . $siswa['agama'] . "</td>";
                             echo "<td>" . $siswa['sekolah_asal'] . "</td>";
+                            echo "<td><img src='img/".$siswa['foto']."' width='100' height='100'></td>";
+
 
                             echo "<td class='text-center'>";
                             echo "<a class='btn btn-info btn-xs' href='form-edit.php?id=" . $siswa['id'] . "' ><span class='glyphicon glyphicon-edit'></span>Edit</a> | ";

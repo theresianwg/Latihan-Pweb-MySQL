@@ -3,7 +3,7 @@ include("config.php");
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    $sql = "Delete from calon_siswa Where id=$id";
+    $sql = "Delete from tambah_foto Where id=$id";
     $query = mysqli_query($db, $sql);
 
     if ($query) {

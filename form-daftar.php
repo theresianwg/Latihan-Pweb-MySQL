@@ -46,6 +46,10 @@
                     <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki<br>
                     <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan<br>
                 </div>
+                <div>
+                <label for="foto">Foto</label><br>
+                    <td><input type="file" name="foto"></td>
+                </div>
                 <button name="daftar" type="submit" class="btn btn-primary" style="margin-top: 20px;">Daftar</button>
             </form>
         </div>

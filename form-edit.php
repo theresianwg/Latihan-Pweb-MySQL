@@ -7,7 +7,7 @@ if (!isset($_GET['id'])) {
 
 $id = $_GET['id'];
 
-$sql = "Select * From calon_siswa Where id=$id";
+$sql = "Select * From tambah_foto Where id=$id";
 $query = mysqli_query($db, $sql);
 $siswa = mysqli_fetch_assoc($query);
 
@@ -68,6 +68,10 @@ if (mysqli_num_rows($query) < 1) {
                     <?php $jk = $siswa['jenis_kelamin']; ?>
                     <input type="radio" name="jenis_kelamin" value="Laki-laki" <?php echo ($jk == 'laki-laki') ? "checked" : "" ?>> Laki-laki<br>
                     <input type="radio" name="jenis_kelamin" value="Perempuan" <?php echo ($jk == 'perempuan') ? "checked" : "" ?>> Perempuan<br>
+                </div>
+                <div>
+                <label for="foto">Foto</label><br>
+                   <input type="file" name="foto"></td>
                 </div>
                 <button name="simpan" type="submit" class="btn btn-primary" style="margin-top: 20px;">Simpan</button>
             </form>

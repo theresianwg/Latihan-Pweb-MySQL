@@ -3,7 +3,7 @@
 $server = "localhost";
 $user = "root";
 $password = "";
-$nama_database = "pendaftaran_siswa";
+$nama_database = "update_siswa";
 
 $db = mysqli_connect($server, $user, $password, $nama_database);
 
