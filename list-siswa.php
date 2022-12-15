@@ -53,8 +53,12 @@
                     <tbody>
                         <?php
                         include "config.php";
-                        $sql = "Select * From tambah_foto";
-                        $query = mysqli_query($db, $sql);
+                        
+                    $sql = "Select * From tambah_foto";
+                    $query = mysqli_query($db, $sql);
+
+                        //$sql = $pdo->prepare("SELECT * FROM tambah_foto");
+                        //$sql->execute(); // Eksekusi querynya
 
                         while ($siswa = mysqli_fetch_array($query)) {
                             echo "<tr>";
