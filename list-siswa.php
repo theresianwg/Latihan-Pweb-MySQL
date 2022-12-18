@@ -34,6 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800;900&family=Roboto:wght@100&family=Secular+One&display=swap" rel="stylesheet">
             <p style="text-align: right; margin:15px">
                 <a href=" form-daftar.php" class="btn btn-primary btn-xs col-md-3">[+] Tambah Baru</a>
+                <a href= "unduh-pdf.php" class="btn btn-primary btn-xs col-md-3">+ Unduh PDF</a>
             </p>
             <div class="col-md-12 col-md-offset-2 custyle">
                 <table class="table table-striped custab">
